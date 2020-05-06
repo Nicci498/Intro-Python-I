@@ -41,8 +41,8 @@ def new_calendar():
     mth = arg[0]
 
   elif len(arg) == 2:
-    mth = ans[0]
-    yr = ans[1]
+    mth = arg[0]
+    yr = arg[1]
     print(yr)
   if mth.isdigit() == False or yr.isdigit() == False:
     return print('please only enter numbers')
